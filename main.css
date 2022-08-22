@@ -3,18 +3,63 @@ body{
     margin: 0;
 }
 
+/* nav section */
+.nav-section{
+    background-color: rgb(201, 225, 201);
+    height: 50px;
+}
+.nav-item{
+    list-style: none;
+    display: inline;
+    margin: 0 3rem;
+    /* padding: 5px 10px;
+    background-color: rgb(201, 225, 201); */
+    border-radius: 3px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: rgb(81, 47, 47);
+}
+.nav-button{
+    background-color: rgb(201, 225, 201);
+    border-radius: 3px;
+    margin: 0 3rem;
+    border: 0;
+    height: 30px;  
+}
+.nav-text{
+    /* background-color: rgb(201, 225, 201);*/
+    border: 2px solid rgb(118, 137, 118);
+    height: 30px;
+    border-radius: 3px;
+    /* border: inset; */
+}
+
+    /* first section */
+#intro-banner h1{
+    color:  rgb(69, 217, 69);
+    text-align: center;
+    font-size: 35px;   
+}
+#intro-banner p{
+    text-align: center;
+}
 .first-section{
-    background-image: url(../Images/practice-nav-bg.jpg);
+    background-image: url(/bgp.jpg);
     background-repeat: no-repeat;
     margin: 0;
     display: flex;
+    /* background-color: rgb(210, 192, 192); */
 }
 .bolg{
     width: 300px;
-    height: 400px;
-    border: 2px solid green;
+    height: 200px;
+    border: 2px solid rgb(118, 137, 118);
     padding: 10px;
     margin: 10px;
     overflow:scroll;
-
+}
+.bolg h2{
+    color:  rgb(69, 217, 69);
+    text-align: center;
 }
